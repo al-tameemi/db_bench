@@ -1,0 +1,7 @@
+[package]
+name = "db_benchmark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "*", default-features = false, features = ["json", "blocking", "rustls"] }
